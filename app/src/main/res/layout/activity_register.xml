@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="@string/txt_empID"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/ATEmpID"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="@string/txt_NewPassword"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/ATNewPassword"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="10dp"
+        android:inputType="textPassword"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="@string/txt_ConfirmNewPassword"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/ATConfirmNewPassword"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="10dp"
+        android:inputType="textPassword"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/ATBDone"
+        android:text="@string/txt_done"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
